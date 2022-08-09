@@ -1,0 +1,31 @@
+— DEPENDENCIES —
+git
+github CLI
+
+————————————————
+Create a repo
+————————--------
+git init
+git add .
+git commit -m "inital commit"
+git branch -m {branchNAME}
+
+gh repo create {repoNAME} --public
+
+git remote add {remoteNAME} git@github.com:{USER}/{repoNAME}.git
+
+git push {repoNAME} {branchNAME}
+
+————————————————
+Remove a repo
+————————--------
+git remote remove {repoNAME}
+
+gh repo delete
+
+————————————————
+Update a repo
+————————--------
+git add .
+git commit -m "update"
+git push {remoteNAME} {branchNAME}
