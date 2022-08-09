@@ -28,4 +28,4 @@ Update a repo
 ————————--------
 git add .
 git commit -m "update"
-git push {remoteNAME:origin} {branchNAME}
+git push {remoteNAME (origin)} {branchNAME}
